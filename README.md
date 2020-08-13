@@ -1,4 +1,5 @@
-# Ames Housing Price Watch
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Ames Housing Price Watch
+
 ![image](./images/housing.png)
 
 ## Problem Statement
@@ -12,9 +13,10 @@ This data requires cleaning of the null values by filling up with zero or the me
 
 
 ## Content
-1. [Data Cleaning and EDA](./codes/01_EDA_and_Cleaning.ipynb)
-2. [Full Exploratory Data Analysis](./codes/02_Preprocessing_and_Feature_Engineering.ipynb)
-3. [Data Visualisation and Inference](./codes/03_Modeling_and_Kaggle_Submission.ipynb)
+1. [Data Cleaning and EDA](./codes/01_Data_Cleaning.ipynb)
+2. [Exploratory Data Analysis](./codes/02_Exploratory_Data_Analysis.ipynb)
+3. [Preprocessing and Feature Engineering](./codes/03_Preprocessing_and_Feature_Engineering.ipynb)
+4. [Modeling and Kaggle Submission](./codes/04_Modeling_and_Kaggle_Submission.ipynb)
 
 
 ## Data Dictionary
