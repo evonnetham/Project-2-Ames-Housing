@@ -1,10 +1,11 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Ames Housing Price Watch
 
-![image](./images/housing.png)
-
 ## Problem Statement
+![image](./images/housing.png)
 As investing in a property involves a large sum of money, and it would be advisable to do a substantial amount of research with the correct data. Whether you are a buyer, a seller or a property investor, everyone wants to buy low and sell high. There are tons of property calculator out there where most can use. However what actually determines the price of a property, what property features are most important in accurately predicting sale prices of the properties in Ames, IA. Accuracy of prediction could increase enormously after having to identify these factors. However, how to you mesure this accuracy?
 
+##### Tools and Libraries Used: 
+python, pandas, numpy, seaborn, matplotlib, scikit-learn
 
 ## Executive Summary
 In order to better understand what are the factors influencing sale prices of the property in Ames, Iowa, we will be looking at the dataset that contains information from the Ames Assessor’s Office used in computing assessed values for individual residential properties sold in Ames, IA from 2006 to 2010. 
