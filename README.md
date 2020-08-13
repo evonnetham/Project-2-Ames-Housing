@@ -4,19 +4,19 @@
 ## Problem Statement
 As investing in a property involves a large sum of money, and it would be advisable to do a substantial amount of research with the correct data. Whether you are a buyer, a seller or a property investor, everyone wants to buy low and sell high. There are tons of property calculator out there where most can use. However what actually determines the price of a property, what property features are most important in accurately predicting sale prices of the properties in Ames, IA. Accuracy of prediction could increase enormously after having to identify these factors. However, how to you mesure this accuracy?
 
----
+
 ## Executive Summary
 In order to better understand what are the factors influencing sale prices of the property in Ames, Iowa, we will be looking at the dataset that contains information from the Ames Assessor’s Office used in computing assessed values for individual residential properties sold in Ames, IA from 2006 to 2010. 
 
 This data requires cleaning of the null values by filling up with zero or the mean and the removal of corrupted rows. As the data consist of continuous, oridinal, nominal and discrete data, several methods were use to standize and help retain important details. Features engineering was done to look at what features affect the sale price. After which, we will be looking at the accuracy of the prediction by using models such as Linear Regression, Ridge and Lasso where Lasso seemed to outperform the rest. 
 
----
+
 ## Content
 1. [Data Cleaning and EDA](./codes/01_EDA_and_Cleaning.ipynb)
 2. [Full Exploratory Data Analysis](./codes/02_Preprocessing_and_Feature_Engineering.ipynb)
 3. [Data Visualisation and Inference](./codes/03_Modeling_and_Kaggle_Submission.ipynb)
 
----
+
 ## Data Dictionary
 
 The data for this project is taken from [here](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/data), which contains the dataset of housing prices in Ames, Iowa from 2006 to 2010. As such, the data dictionary provides a thorough breakdown of the variables involved.
@@ -108,7 +108,7 @@ Here are some of the features:
 | sale_type | string | train | Type of sale |
 | saleprice | int | train | Price property was sold for |
 
----
+
 ## Conclusions and Recommendations
 
 In order to have a model that predict the price of house accurate first we will need to clean up our data with the help of Exploratory Data Analysis, where we will be looking at data for completeness through imputation of the null values, convertion of discrete, continous, ordinal and nominal values in variables, identifying which are the outlier. 
